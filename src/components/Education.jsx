@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { GraduationCap } from 'lucide-react'
+import { publicAsset } from '../assets.js'
 import PaperTitle from './PaperTitle.jsx'
 import PhotoStack from './PhotoStack.jsx'
 
@@ -70,7 +71,7 @@ export default function Education() {
               <ul>
                 {entries.map(({ name: certificate, issuer, logo }) => (
                   <li key={certificate}>
-                    <img className="issuer-logo" src={logo} alt={`${issuer} logo`} />
+                    <img className="issuer-logo" src={publicAsset(logo)} alt={`${issuer} logo`} />
                     <span className="cert-text">{certificate}<em>{issuer}</em></span>
                   </li>
                 ))}

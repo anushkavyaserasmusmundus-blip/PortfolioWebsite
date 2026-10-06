@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail, Phone, Linkedin, Github, MapPin, GraduationCap, Sparkles } from 'lucide-react'
 import { CutoutText } from './PaperTitle.jsx'
+import { publicAsset } from '../assets.js'
 import { EMAIL, gmailComposeUrl, GITHUB_PROFILE, LINKEDIN_PROFILE } from '../links.js'
 
 const contactDetails = [
@@ -42,7 +43,7 @@ export default function Hero() {
 
           <motion.div className="portrait-area" initial={{ opacity: 0, rotate: 2, y: 20 }} animate={{ opacity: 1, rotate: 3, y: 0 }} transition={{ delay: 0.3, duration: 0.6 }}>
             <div className="polaroid">
-              <img src="/anushka-portrait.jpg" alt="Portrait of Anushka Vyas" width="1600" height="1600" />
+              <img src={publicAsset('/anushka-portrait.jpg')} alt="Portrait of Anushka Vyas" width="1600" height="1600" />
               <span className="paperclip clip-blue" aria-hidden="true" /><span className="paperclip clip-gold" aria-hidden="true" />
               <span className="polaroid-smile" aria-hidden="true">☺</span>
               <span className="tape portrait-tape" aria-hidden="true" />
