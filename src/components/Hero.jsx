@@ -22,7 +22,7 @@ export default function Hero() {
           <span className="hero-name">ANUSHKA <CutoutText text="V" className="hero-initial" /></span>
         </motion.h1>
         <motion.p className="role-strip" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2, duration: 0.5 }}>
-          Sr. Software Engineer <span>•</span> JAVA <span>•</span> C#/.NET <span>•</span> REACT
+          Sr. Software Engineer & Power Platform Specialist <span>•</span> JAVA <span>•</span> C#/.NET <span>•</span> D365
         </motion.p>
 
         <div className="hero-columns">

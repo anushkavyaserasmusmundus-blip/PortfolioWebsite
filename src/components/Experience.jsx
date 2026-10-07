@@ -41,6 +41,19 @@ const roles = [
     ],
   },
   {
+    company: 'BITS Vadodara',
+    title: 'Software Engineering Intern',
+    period: 'June 2024 - Sept 2024',
+    location: 'Vadodara, India',
+    stamp: 'SOFTWARE • EDUCATION',
+    tape: 'pink-tape',
+    highlights: [
+      "Contributed to the development of BITS Vadodara's educational institution management system using C#, ASP.NET Core, Entity Framework Core, and SQL Server.",
+      'Developed workflows for student admissions, course and batch allocation, attendance tracking, and fee management.',
+      'Implemented JWT-secured APIs and role-based dashboards for administrators, faculty, and students, with automated academic reports and fee receipts.',
+    ],
+  },
+  {
     company: 'Celebal Technologies',
     title: 'Data Engineering Intern',
     period: 'May 2023 — Jul 2023',
@@ -53,18 +66,7 @@ const roles = [
       'Collaborated closely with data engineers and analysts to enable data-driven decision-making and analytics readiness.',
     ],
   },
-  {
-    company: 'BITS Vadodara',
-    title: 'Software Engineering Intern',
-    location: 'Vadodara, India',
-    stamp: 'SOFTWARE • EDUCATION',
-    tape: 'pink-tape',
-    highlights: [
-      "Contributed to the development of BITS Vadodara's educational institution management system using C#, ASP.NET Core, Entity Framework Core, and SQL Server.",
-      'Developed workflows for student admissions, course and batch allocation, attendance tracking, and fee management.',
-      'Implemented JWT-secured APIs and role-based dashboards for administrators, faculty, and students, with automated academic reports and fee receipts.',
-    ],
-  },
+  
 ]
 
 export default function Experience() {
